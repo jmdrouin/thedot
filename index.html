@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script>
+			window.onload = function()
+			{
+				// Create a canvas and draw something in it.
+				var canvas = document.createElement("canvas");
+				canvas.width = 640;
+				canvas.height = 480;
+				var canvasContext2D = canvas.getContext("2d");
+				canvasContext2D.fillStyle = "red";
+				canvasContext2D.fillRect(0, 0, canvas.width, canvas.height);
+				document.body.appendChild(canvas);
+			};
+			</script>
+	</head>
+</html>
